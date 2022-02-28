@@ -2,6 +2,11 @@
 import axios from 'axios'
 import { ref } from 'vue'
 import keepTest from './keepalive/keepTest.vue'
+import Props from './communicate/props/index.vue'
+import Emits from './communicate/emits/index.vue'
+import vModel from './communicate/vModel/index.vue'
+import Refs from './communicate/refs/index.vue'
+import Provide from './communicate/provide/index.vue'
 
 defineProps<{ msg: string }>()
 
@@ -115,7 +120,23 @@ const getData = () => {
     />
   </form>
 
+  <!-- keepalive -->
   <keepTest></keepTest>
+
+  <!-- props -->
+  <Props></Props>
+
+  <!-- emits -->
+  <Emits></Emits>
+
+  <!-- v-model -->
+  <vModel></vModel>
+
+  <!-- refs -->
+  <Refs></Refs>
+
+  <!-- Provide -->
+  <Provide></Provide>
 </template>
 
 <style scoped>
