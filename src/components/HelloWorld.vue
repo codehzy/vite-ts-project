@@ -7,6 +7,7 @@ import Emits from './communicate/emits/index.vue'
 import vModel from './communicate/vModel/index.vue'
 import Refs from './communicate/refs/index.vue'
 import Provide from './communicate/provide/index.vue'
+import TexTest from './tsx/index'
 
 defineProps<{ msg: string }>()
 
@@ -137,6 +138,11 @@ const getData = () => {
 
   <!-- Provide -->
   <Provide></Provide>
+
+  <!-- tsx -->
+  <div class="flex justify-center">
+    <TexTest></TexTest>
+  </div>
 </template>
 
 <style scoped>
