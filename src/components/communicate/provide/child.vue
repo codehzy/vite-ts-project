@@ -4,10 +4,10 @@
   </div>
 </template>
 
-<script lang="tsx" setup>
+<script lang="ts" setup>
 import { inject } from 'vue'
 // 接收父组件提供的数据
-const list = inject('list')
+const list: any = inject('list')
 </script>
 
 <style lang="scss" scoped></style>

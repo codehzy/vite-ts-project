@@ -32,9 +32,9 @@ export default defineComponent({
     return () => (
       <>
         <span style={{ marginRight: '10px' }}>{data.count}</span>
-        <Button onClick={clickHandler} name={'添加'}>
+        <button onClick={clickHandler} name={'添加'}>
           +
-        </Button>
+        </button>
         <FcNode data={data.count} />
       </>
     )
