@@ -9,8 +9,6 @@ import Refs from './communicate/refs/index.vue'
 import Provide from './communicate/provide/index.vue'
 import TexTest from './tsx/index'
 
-defineProps<{ msg: string }>()
-
 const count = ref(0)
 
 const send = () => {

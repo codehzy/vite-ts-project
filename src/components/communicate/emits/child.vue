@@ -9,7 +9,7 @@
 
 <script lang="ts" setup>
 import Button from '../../button.vue'
-import { defineEmits, ref } from 'vue'
+import { ref } from 'vue'
 
 const emits = defineEmits(['add'])
 
