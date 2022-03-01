@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, defineExpose, reactive } from 'vue'
+import { ref, reactive } from 'vue'
 import Button from '../../button.vue'
 const list = ref(['JavaScript', 'HTML', 'CSS'])
 const value = ref('')
