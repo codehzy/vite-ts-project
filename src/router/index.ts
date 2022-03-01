@@ -7,6 +7,11 @@ const routes: RouteRecordRaw[] = [
     path: '/canvas',
     name: 'canvas',
     component: () => import('../components/canvas/canvasA')
+  },
+  {
+    path: '/echarts',
+    name: 'echarts',
+    component: () => import('../components/echarts/echarts')
   }
 ]
 
