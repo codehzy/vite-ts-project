@@ -15,6 +15,6 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     },
-    base: './'
+    base: '/vite-ts-project/'
   }
 })
