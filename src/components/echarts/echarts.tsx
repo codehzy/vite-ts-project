@@ -125,7 +125,6 @@ export default defineComponent({
         <div id="main" style={{ width: '100%', height: '300px' }}></div>
         <div id="main1" style={{ width: '100%', height: '300px' }}></div>
         <div id="main2" style={{ width: '100%', height: '300px' }}></div>
-        <div id="main3" style={{ width: '100%', height: '300px' }}></div>
       </>
     )
   }
