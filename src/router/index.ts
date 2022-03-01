@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import HelloWord from '../components/Helloworld.vue'
 
 const routes: RouteRecordRaw[] = [
@@ -16,7 +16,7 @@ const routes: RouteRecordRaw[] = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/vite-ts-project/'),
+  history: createWebHashHistory('/vite-ts-project/'),
   routes
 })
 
