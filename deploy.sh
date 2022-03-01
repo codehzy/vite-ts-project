@@ -19,6 +19,6 @@ cd dist
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:codehzy/vite-ts-project.git main:gh-pages
+git push -f git@github.com:codehzy/vite-ts-project.git master:gh-pages
 
 cd - 
