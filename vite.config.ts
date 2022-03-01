@@ -7,14 +7,14 @@ export default defineConfig({
   plugins: [vue(), vueJsx()],
   server: {
     host: '0.0.0.0',
-    port: 3000,
-    proxy: {
-      '/coffee': {
-        target: 'http://localhost:3000',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
+    port: 3000
+    // proxy: {
+    //   '/coffee': {
+    //     target: 'http://localhost:3000',
+    //     changeOrigin: true,
+    //     rewrite: (path) => path.replace(/^\/api/, '')
+    //   }
+    // }
   },
   base: '/vite-ts-project/'
 })
