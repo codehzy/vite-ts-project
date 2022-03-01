@@ -13,8 +13,10 @@ cd dist
 # 如果你要部署到自定义域名
 # echo 'www.example.com' > CNAME
 
-
-git push origin --delete gh-pages
+git init
+git checkout main
+git add -A
+git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
