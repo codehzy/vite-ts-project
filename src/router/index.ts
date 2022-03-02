@@ -12,6 +12,16 @@ const routes: RouteRecordRaw[] = [
     path: '/echarts',
     name: 'echarts',
     component: () => import('../components/echarts/echarts')
+  },
+  {
+    path: '/cssNew',
+    name: 'cssNew',
+    component: () => import('../components/cssNew/cssNew')
+  },
+  {
+    path: '/piniaTest',
+    name: 'piniaTest',
+    component: () => import('../components/piniaComponent/piniaTest')
   }
 ]
 
