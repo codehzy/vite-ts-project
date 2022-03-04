@@ -9,6 +9,8 @@ import Refs from './communicate/refs/index.vue'
 import Provide from './communicate/provide/index.vue'
 import TexTest from './tsx/index'
 import useSlot from './slot/useSlot.vue'
+import provideParent from './provide/parent.vue'
+import tabMain from './isComponents/tabMain.vue'
 
 const count = ref(0)
 
@@ -144,6 +146,12 @@ const getData = () => {
   </div>
 
   <useSlot></useSlot>
+
+  <!-- provide inject -->
+  <provideParent></provideParent>
+
+  <!-- isComponents -->
+  <tabMain></tabMain>
 </template>
 
 <style scoped>
