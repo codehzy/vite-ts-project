@@ -11,6 +11,7 @@ import TexTest from './tsx/index'
 import useSlot from './slot/useSlot.vue'
 import provideParent from './provide/parent.vue'
 import tabMain from './isComponents/tabMain.vue'
+import refParent from './refComponent/parent.vue'
 
 const count = ref(0)
 
@@ -152,6 +153,9 @@ const getData = () => {
 
   <!-- isComponents -->
   <tabMain></tabMain>
+
+  <!-- ref -->
+  <refParent></refParent>
 </template>
 
 <style scoped>
