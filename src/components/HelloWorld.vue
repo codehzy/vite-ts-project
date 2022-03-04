@@ -8,6 +8,7 @@ import vModel from './communicate/vModel/index.vue'
 import Refs from './communicate/refs/index.vue'
 import Provide from './communicate/provide/index.vue'
 import TexTest from './tsx/index'
+import useSlot from './slot/useSlot.vue'
 
 const count = ref(0)
 
@@ -141,6 +142,8 @@ const getData = () => {
   <div class="flex justify-center">
     <TexTest></TexTest>
   </div>
+
+  <useSlot></useSlot>
 </template>
 
 <style scoped>
