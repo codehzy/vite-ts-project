@@ -13,6 +13,8 @@ import provideParent from './provide/parent.vue'
 import tabMain from './isComponents/tabMain.vue'
 import refParent from './refComponent/parent.vue'
 import trans from './transition/trans.vue'
+import transList from './transition/transList.vue'
+import stateList from './transition/stateList.vue'
 
 const count = ref(0)
 
@@ -167,6 +169,12 @@ const getData = () => {
         alt=""
     /></template>
   </trans>
+
+  <!-- transitionList -->
+  <transList></transList>
+
+  <!-- transitionState -->
+  <stateList></stateList>
 </template>
 
 <style scoped>

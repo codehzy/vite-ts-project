@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineExpose, ref } from 'vue'
+import { ref } from 'vue'
 const list = ['123', '345']
 const input = ref<HTMLInputElement>()
 const focus = () => {
