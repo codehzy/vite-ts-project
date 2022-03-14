@@ -12,6 +12,7 @@ import useSlot from './slot/useSlot.vue'
 import provideParent from './provide/parent.vue'
 import tabMain from './isComponents/tabMain.vue'
 import refParent from './refComponent/parent.vue'
+import trans from './transition/trans.vue'
 
 const count = ref(0)
 
@@ -156,6 +157,16 @@ const getData = () => {
 
   <!-- ref -->
   <refParent></refParent>
+
+  <!-- transition -->
+  <trans>
+    <template v-slot:flip>
+      <img
+        src="
+  https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt='drawing of a woman sharing soda with a zombie"
+        alt=""
+    /></template>
+  </trans>
 </template>
 
 <style scoped>
